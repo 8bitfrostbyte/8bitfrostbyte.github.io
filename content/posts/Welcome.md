@@ -12,4 +12,4 @@ I'm hoping that this blog itself will become a companion to a wider portfolio of
 
 For now though it will focus on the first of my projects.... 
 
-# The GameJam!
+# The GameJam!!
