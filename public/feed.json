@@ -1,0 +1,34 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "GameJam Blog",
+  "home_page_url": "http://localhost:1313/",
+  "feed_url": "http://localhost:1313/feed.json",
+  "description": "A blog following me through a three day gamejam",
+  "favicon": "http://localhost:1313//assets/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "8BitFrostByte",
+    "url": "http://localhost:1313/"
+  },
+  "items": [
+    
+    
+
+    
+    {
+      "id": "ca4f9dcf204e2037bfe5884867bead98bd9cbaf8",
+      "title": "Welcome",
+      "summary": "",
+      "content_text": "Welcome to my blog specifically created (at least for now) for the purpose of chronologising the three day gamejam hosted at my university.\nWhat will follow will be posts that will cover every part of development over the course of the three days with new blog posts, images and detailed breakdowns of the days tasks and what still has to be done.\nI\u0026rsquo;m hoping that this blog itself will become a companion to a wider portfolio of game development projects used as a way to show the process of development for the personal projects and prototypes i work on from start to finish.\nFor now though it will focus on the first of my projects\u0026hellip;.\nThe GameJam! ",
+      "content_html": "\u003cp\u003eWelcome to my blog specifically created (at least for now) for the purpose of chronologising the three day gamejam hosted at my university.\u003c/p\u003e\n\u003cp\u003eWhat will follow will be posts that will cover every part of development over the course of the three days with new blog posts, images and detailed breakdowns of the days tasks and what still has to be done.\u003c/p\u003e\n\u003cp\u003eI\u0026rsquo;m hoping that this blog itself will become a companion to a wider portfolio of game development projects used as a way to show the process of development for the personal projects and prototypes i work on from start to finish.\u003c/p\u003e\n\u003cp\u003eFor now though it will focus on the first of my projects\u0026hellip;.\u003c/p\u003e\n\u003ch1 id=\"the-gamejam\"\u003eThe GameJam!\u003c/h1\u003e\n",
+      "url": "http://localhost:1313/posts/welcome/",
+      "date_published": "4116-04-09T1138:44:00+00:00",
+      "date_modified": "4116-04-09T1138:44:00+00:00",
+      "author": {
+        "name": "8BitFrostByte",
+        "url": "http://localhost:1313/"
+      }
+    }
+    
+  ]
+}
