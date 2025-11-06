@@ -1,6 +1,6 @@
 baseURL = 'https://8bitfrostbyte.github.io/'
 languageCode = 'en-us'
-title = 'GameJam Blog'
+title = 'The Pixelated World of 8BitFrostByte'
 
 theme = "maverick"
 

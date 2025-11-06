@@ -6,4 +6,4 @@ title = 'Welcome'
 
 # Welcome!
 
-This is my blog about game development
+This is my Website about game development and my long journey to make games
