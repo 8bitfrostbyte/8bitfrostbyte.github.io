@@ -19,14 +19,14 @@ I spent a good half an hour looking at tutorials before realising that without a
 The first thing I had to do was create a new input action for the act of throwing an object. These inputs allow actions to be done as the player when certain conditions are met such as pushing a button to jump.
 So following the naming conventions of the other input actions I created a new one and named it IA_Throw.
 
-![](images/throw.png)
+![](/images/throw.png)
 
 I mapped it to F on the keyboard and set it up so that whenever the F key is pressed the object in hand is thrown.
 Next I went to work on the actual code that would allow for the checking of the input and execution of the required behaviour. And so my work on the player character blueprint began again.
 
 Now usually I would need to implement code that would allow any grabbed object to attach to a created socket on the character (like connecting two Lego pieces). However, as this was day two of three of a GameJam such things could be simply ignored for the sake of saving time. This would make my work easier and allow me to get straight to coding the behaviour itself.
 
-![](images/grabthrow.png)
+![](/images/grabthrow.png)
 
 After following a tutorial I managed to construct rudimentary code that in theory would allow me to throw an object held by the player. I say “in theory” because…It didn’t work.
 
@@ -40,10 +40,10 @@ The process of getting everyone on the same page however had some issues, pullin
 We began by uploading 800+ Texture and mesh files for objects ready to replace the base model mesh files for all the objects blocked out in day one by the level designer.
 While one team member was doing that, the level designer was finishing the block out on room one and two.
 
-![](images/blockout1.png)
+![](/images/blockout1.png)
 Room 1 blockout.
 
-![](images/blockout2.png)
+![](/images/blockout2.png)
 Room 2 blockout.
 
 Once both block outs were done, the level designer began gathering all relevant links related to assets for a credits document as specified at the start of the Game Jam this would allow the person marking the entries to see where we acquired the assets we used to populate our game world.
@@ -58,28 +58,28 @@ Unlike my earlier tasks implementing the simple grab and throw mechanics, this t
 I began by cloning the repository for the project onto my home computer and immediately got to work on the required code.
 I created the blueprint that would be used for all large moveable objects present in each level such as chairs or boxes. I then accessed the testing level that was setup specifically to test new content in order to prevent anything from going wrong in the main three levels
 
-![](images/testroom.png)
+![](/images/testroom.png)
 
 I then added a box collision which would allow the player to interact and also allow me to check if the player can interact with the chosen large object.
 
-![](images/largeobjectbox.png)
+![](/images/largeobjectbox.png)
 
 Next, I moved onto the behaviour code.
 I implemented code that would print a string that shows a character can push something when overlapping the box collision and will also show up when the player and the box collision are not overlapping to show the player can't interact.
 
-![](images/testingroomobject.png)
+![](/images/testingroomobject.png)
 
 Next, I moved onto creating the boolean interacting check variables for the player character blueprint, isInteractingBox and CanInteract.
 
-![](images/booleans.png)
+![](/images/booleans.png)
 
 Once I had those done, I created a simple check system with those Booleans to check if the player is interacting with the object and if they are then setting the max walk speed to around 60 to be slower. However, if the player is not interacting with the object or stops interacting with the object then the walk speed gets reset back to maximum.
 
-![](images/codecheck.png)
+![](/images/codecheck.png)
 
 The next part simulates physics if the player is interacting with the object.
 
-![](images/physicscode.png)
+![](/images/physicscode.png)
 
 After that, I moved onto the interaction within the large object blueprint using event tick. This also involved changing the player input code which I found quite complicated but completed it regardless.
 However, after 2 hours of work the resulting code didn’t function and after looking into the issue, I came across the problem, the input actions used in the tutorial are officially depreciated in the version of Unreal Engine 5 I was forced to use for this GameJam making two hours of work irrelevant.
