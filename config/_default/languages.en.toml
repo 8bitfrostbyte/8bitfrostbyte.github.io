@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Portfolio"
+title = ""
 
 [params]
   displayName = "EN"
@@ -19,7 +19,7 @@ title = "Portfolio"
 # email = "youremail@example.com"
    image = "img/blowfish_logo.png"
    imageQuality = 96
-   headline = "I'm only human"
+   headline = "Game dev and University student"
 # bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },

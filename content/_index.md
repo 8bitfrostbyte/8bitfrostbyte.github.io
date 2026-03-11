@@ -1,1 +1,1 @@
-Im a University student studying game development
+Hobbiest game dev and 2nd year university student
